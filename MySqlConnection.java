@@ -71,7 +71,9 @@ public class MySqlConnection {
                     rs.close();
                     st.close();
                     break;
-case 5:
+			    
+//Search the Data into Database :			    
+		case 5:
 		    st=cn.createStatement();
                     System.out.println("Enter Product ID which you want to Search : ");
                     no=Integer.parseInt(br.readLine());
